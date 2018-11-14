@@ -13,34 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\kinglib">
-      <UniqueIdentifier>{71369e4a-8c3f-454a-bdba-5c82895475ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\kinglib">
-      <UniqueIdentifier>{6821ade4-45c6-4243-9e66-0f5cdb1a863b}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\SdlWindow.cpp">
-      <Filter>Source Files\kinglib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\Engine.cpp">
-      <Filter>Source Files\kinglib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\Font.cpp">
-      <Filter>Source Files\kinglib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\GlContext.cpp">
-      <Filter>Source Files\kinglib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\Sdl.cpp">
-      <Filter>Source Files\kinglib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\external\include\king\SdlSurface.cpp">
-      <Filter>Source Files\kinglib</Filter>
     </ClCompile>
     <ClCompile Include="..\src\TestGame.cpp">
       <Filter>Source Files</Filter>
@@ -80,27 +56,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\external\include\king\Engine.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\Font.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\GlContext.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\Sdl.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\SdlSurface.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\SdlWindow.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\external\include\king\Updater.h">
-      <Filter>Header Files\kinglib</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\TestGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
